@@ -11,11 +11,11 @@ public class Main {
 
         // Calling the second method
         if (resultTwo > resultOne){
-          printGreeting("John");
+            printGreeting("John");
         } else if (resultTwo < resultOne) {
-          printGreeting("Matt");
+            printGreeting("Matt");
         } else {
-          printGreeting("Boss");
+            printGreeting("Boss");
         }
     }
 
