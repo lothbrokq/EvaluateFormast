@@ -1,7 +1,7 @@
 public class Main {
 
     // A constant in this Java program
-    public static final int CONSTANT = 10;
+    public static final int CONSTANT = 20;
     
     public static void main(String[] args) {
         // Calling the first method
@@ -23,7 +23,7 @@ public class Main {
     public static void printGreeting(String name) {
         System.out.println("Hello, " + name + "! Welcome to the program.");
     }
-    
+
     // A simple method that multiplies an integer by a constant
     public static int multiplyByConstant(int number) {
         return number * CONSTANT;
