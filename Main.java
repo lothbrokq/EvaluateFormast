@@ -9,6 +9,10 @@ public class Main {
         int resultTwo = multiplyByConstant(7);
         System.out.println("The result  is " + resultOneChanged);
 
+        if (resultTwo != resultOneChanged){
+            System.out.println("The results are not equal")
+        }
+
         // Calling the second method
         if (resultTwo > resultOneChanged){
             printGreeting("John");
