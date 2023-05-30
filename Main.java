@@ -5,14 +5,14 @@ public class Main {
     
     public static void main(String[] args) {
         // Calling the first method
-        int resultOne = multiplyByConstant(5);
+        int resultOneChanged = multiplyByConstant(5);
         int resultTwo = multiplyByConstant(7);
-        System.out.println("The result  is " + resultOne);
+        System.out.println("The result  is " + resultOneChanged);
 
         // Calling the second method
-        if (resultTwo > resultOne){
+        if (resultTwo > resultOneChanged){
             printGreeting("John");
-        } else if (resultTwo < resultOne) {
+        } else if (resultTwo < resultOneChanged) {
             printGreeting("Matt");
         } else {
             printGreeting("Boss");
