@@ -1,6 +1,6 @@
 public class Main {
 
-    // A constant in Java
+    // A constant in this Java program
     public static final int CONSTANT = 10;
     
     public static void main(String[] args) {
@@ -28,5 +28,5 @@ public class Main {
     public static void printGreeting(String name) {
         System.out.println("Hello, " + name + "! Welcome to the program.");
     }
-    
+
 }
