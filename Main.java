@@ -7,7 +7,7 @@ public class Main {
         // Calling the first method
         int resultOne = multiplyByConstant(5);
         int resultTwo = multiplyByConstant(7);
-        System.out.println("The result is " + resultOne);
+        System.out.println("The result  is " + resultOne);
 
         // Calling the second method
         if (resultTwo > resultOne){
