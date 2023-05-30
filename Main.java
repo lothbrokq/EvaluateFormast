@@ -19,14 +19,14 @@ public class Main {
         }
     }
 
-    // A simple method that multiplies an integer by a constant
-    public static int multiplyByConstant(int number) {
-        return number * CONSTANT;
-    }
-
     // Another simple method that prints a greeting
     public static void printGreeting(String name) {
         System.out.println("Hello, " + name + "! Welcome to the program.");
+    }
+    
+    // A simple method that multiplies an integer by a constant
+    public static int multiplyByConstant(int number) {
+        return number * CONSTANT;
     }
 
 }
