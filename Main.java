@@ -28,4 +28,5 @@ public class Main {
     public static void printGreeting(String name) {
         System.out.println("Hello, " + name + "! Welcome to the program.");
     }
+    
 }
